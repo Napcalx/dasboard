@@ -68,7 +68,9 @@ const API = async ()=> {
 
             // Create imgTag
             const imgTag = document.createElement('span');
-            imgTag.src = imgsrc;
+            //imgTag.classList.add('imgsrc')
+            //imgTag.append(imgsrc);
+            
 
 
             // Append all elements inside Row
