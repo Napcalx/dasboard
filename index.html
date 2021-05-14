@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Coin Dashboard</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <style>
+            .row {
+                width: 70vw;
+                background-color: blue;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: auto;
+                padding: 10px;
+            }
+
+            .name {
+                background-color: grey;
+            }
+
+            .symbol {
+                background-color: gray;
+            }
+
+            .id {
+                background-color: gray;
+            }
+            
+            .curr_price {
+                background-color: gray;
+            }
+
+            .market-cap {
+                background-color: gray;
+            }
+
+            .trading-volume {
+                background-color: gray;
+            }
+
+            .h_24 {
+                background-color: gray;
+            }
+
+            .l_24 {
+                background-color: gray;
+            }
+
+            .img {
+                background-color: burlywood;
+                height: 30px;
+                width: 30px;
+            }
+
+        </style>
+
+        <div id="dashboard">
+            <div class="row">
+                <p class="name">Name</p>
+                <p class="symbol">Symbol</p>
+                <p class="id">ID</p>
+                <span class="curr_price">Current Price</span>
+                <span class="market-cap">Market-Cap</span>
+                <span class="trading-volume">Trading Volume</span>
+                <span class="h_24">24H High</span>
+                <span class="l_24">24H Low</span>
+                <img src="" alt="Coin_image" class="imgsrc">
+            </div>
+        </div>
+
+        <script src="./index.js" async defer></script>
+    </body>
+</html>
